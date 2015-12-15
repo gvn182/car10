@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="planets_array">
+        <item>SOLICITAR COTAÇÃO</item>
+        <item>MINHAS COTAÇÕES</item>
+        <item>MEUS DADOS</item>
+        <item>SOBRE O CAR10</item>
+        <item>LOGOFF</item>
+    </string-array>
+
+    <string name="app_name">car10</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="app_id">792153427486373</string>
+    <string name="title_activity_termo_aceite">TermoAceiteActivity</string>
+    <string name="title_activity_politica_privacidade_layout">PoliticaPrivacidadeLayout</string>
+
+</resources>

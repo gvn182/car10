@@ -1,0 +1,7 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:drawable="@drawable/car_0108" android:duration="25" />
+    <item android:drawable="@drawable/car_0115" android:duration="25" />
+    <item android:drawable="@drawable/car_0141" android:duration="25" />
+    <item android:drawable="@drawable/car_0163" android:duration="25" />
+    <item android:drawable="@drawable/car_0167" android:duration="25" />
+</animation-list>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="simple.com.car10" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="Bem vindo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cotacao1Activity"
+            android:label="Área de Danos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VisualizarOrcamentoActivity"
+            android:label="Orçamento"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AtualizaDadosActivity"
+            android:label="Dados Cadastrais"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cotacao2Activity"
+            android:label="Localização"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cotacao3Activity"
+            android:label="Dados do Veículo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cotacao4Activity"
+            android:label="Seus Dados"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetalhesOrcamentoActivity"
+            android:label="Detalhes do Orçamento"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HowToPictureActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".GetPicturesActivity"
+            android:theme="@style/Theme.Transparent" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB1LL3bJP7Qm6jV5Xfr2Fn6UEI-f_akdzg" />
+
+        <activity
+            android:name=".OcorrenciaListaActivity"
+            android:label="Lista de ocôrrencias" >
+        </activity>
+        <activity
+            android:name=".OrcamentoListaActivity"
+            android:label="Orçamentos" >
+        </activity>
+        <activity
+            android:name=".VoucherActivity"
+            android:label="Voucher" >
+        </activity>
+        <activity
+            android:name=".PerfilOficinaActivity"
+            android:label="Perfil Oficina" >
+        </activity>
+        <activity
+            android:name=".SobreActivity"
+            android:label="Sobre o Car10" >
+        </activity>
+        <activity
+            android:name=".FaceTest"
+            android:label="Teste face" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".TermoAceiteActivity"
+            android:label="Termo de aceite" >
+        </activity>
+        <activity
+            android:name=".PoliticaPrivacidadeActivity"
+            android:label="Politica de privacidade" >
+        </activity>
+    </application>
+
+</manifest>

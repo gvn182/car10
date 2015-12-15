@@ -1,0 +1,121 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/svForm"
+        android:layout_centerHorizontal="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFF">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="Helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O que é o Car10"
+         />
+
+    <View android:layout_height="2px"
+        android:layout_marginTop="2dp"
+        android:layout_width="300dp"
+        android:textColor="#FF681B"
+        android:background="#FF681B"  />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:fontFamily="Helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O Car10 é uma solução inovadora criada para simplificar a árdua tarefa de se encontrar oficinas e levantar preços para reparos em veiculos avariados. Ao Invés do cliente levar seu veiculo em várias oficinas, com o Car10 são as oficinas que vão até o cliente. Com o conforto e a agilidade da transmissão pela internet das imagens do veiculo, o cliente pode comparar vários orçamentos, escolher o que mais lhe interessar e interagir diretamente com a oficina, a partir da autorização para início dos serviços."
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="Helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nossa Missão"
+        />
+
+    <View android:layout_height="2px"
+        android:layout_marginTop="2dp"
+        android:layout_width="300dp"
+        android:textColor="#FF681B"
+        android:background="#FF681B"  />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:fontFamily="Helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nossa missão é propiciar aos proprietários de veículos automotores um meio fácil e rápido de obter cotações para o conserto de seus veículos, com informações claras e seguras, para que esses possam tomar a melhor decisão de compra."
+        />
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="Helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nossos Valores"
+        />
+
+    <View android:layout_height="2px"
+        android:layout_marginTop="2dp"
+        android:layout_width="300dp"
+        android:textColor="#FF681B"
+        android:background="#FF681B"  />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:fontFamily="Helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nossa empresa é nova, mas nasceu com uma base sólida de bons valores. Todas as nossas ações são feitas com TRANSPARÊNCIA, visando obter sempre a melhor CREDIBILIDADE com os nossos clientes. Nossas premissas de negócios são paut adas com o máximo de ÉTICA e RESPONSABILIDADE com os nossos colaboradores, fornecedores e parceiros."
+        />
+
+
+
+</LinearLayout>
+    </ScrollView>
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#dbdbdb"
+        android:dividerHeight="1dp"
+        android:background="#FFF"/>
+</android.support.v4.widget.DrawerLayout>

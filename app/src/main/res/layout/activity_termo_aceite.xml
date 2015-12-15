@@ -1,0 +1,120 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/svForm"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#FFF">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUEM SOMOS"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O Car10 é uma solução inovadora criada para simplificar a árdua tarefa de se encontrar oficinas e levantar preços para reparos em veículos avariados. Ao invés do cliente levar seu veículo em várias oficinas, com o Car10 são as oficinas que vão até o cliente. Com o conforto e a agilidade da transmissão pela internet das imagens do veículo, o cliente pode comparar vários orçamentos, escolher o que mais lhe interessar e interagir diretamente com a oficina, a partir da autorização para início dos serviços.   O Car10 proporciona ao usuário uma navegação segura, em ambiente muito simples, tudo pensado para facilitar a vida de quem precisa reparar danos em seu veículo, sejam eles decorrentes de acidente ou não, e que não quer perder tempo com idas e vindas a diversas oficinas, sem contar as despesas com guinchos que esses deslocamentos podem gerar.   O Car10 possibilita ao usuário receber em seu computador diversos orçamentos para reparos em seu veículo, elaborados por oficinas cadastradas no Car10 e mais próximas da localização informada na ocorrência cadastrada no site, comparar preços e escolher aquele que considerar melhor, sem qualquer intervenção do site.   O Car10 é a melhor ferramenta para reparos em veículos ao alcance dos usuários que buscam agilidade nas informações, aliado à confiabilidade na segurança dos dados trafegados e na privacidade da navegação, preservados pelo investimento permanente em tecnologia de proteção das informações."
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TERMO DE USO"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por este documento, denominado Termo de Uso, são definidos os conceitos de acessibilidade e informados as responsabilidades, deveres e obrigações de todo visitante ou usuário que acessar ou utilizar o Car10.   Ao acessar ou utilizar o Car10 o visitante ou usuário estará anuindo ao presente Termo de Uso, devendo ratificar sua concordância antes de concluir operação de cadastro de uma ocorrência. Portanto, o visitante ou usuário deverá ler com atenção as condições abaixo, pois, ao confirmar o envio de suas informações, estará aderindo e concordando com o presente Termo de Uso e eventuais alterações futuras."
+            />
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Definições"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SITE Car10: é o ambiente de internet registrado no Núcleo de Informação e Coordenação do Ponto BR, sob o domínio “car10.com.br”, com todos os seus recursos e ferramentas, disponibilizado ao público para o serviço a que se propõe a empresa.   VISITANTE: É toda pessoa que acessa ao site Car10 e não se enquadre como usuário ou oficina.   USUÁRIO: É toda pessoa que se cadastra no Car10 e conclua operação de cadastro de ocorrência, passando a ser identificada por senha exclusiva por ela criada.  OFICINA: É a empresa prestadora de serviços em reparação de veículos, de linhas gerais ou de determinada marca, ou de determinado tipo de veículo.   OCORRÊNCIA: É o conjunto de informações inseridas pelo usuário no site Car10, a fim de enviar pedido de orçamento às oficinas cadastradas no Car10 mais próximas da sua localização.  ORÇAMENTO: É o relatório detalhado elaborado por oficina, com base nos dados e fotografias da ocorrência cadastradas pelo usuário, onde constam as peças ou componentes que devem ser repostos, substituídos ou reparados, com seus valores totais; os serviços diversos de mão de obra, com seu valor total; o prazo estimado em dias úteis para os reparos e o prazo de validade do orçamento.   CONVITE: É o envio eletrônico para as oficinas cadastradas das informações inseridas pelo usuário, a fim de solicitar orçamentos.   APROVAÇÃO: É o aceite eletrônico do orçamento e de suas condições, que o usuário envia diretamente para a oficina por ele escolhida, autorizando a execução dos reparos por sua conta e risco, sem qualquer tipo de responsabilidade por parte do Car10 ou de seus funcionários, representantes e procuradores.  RAIO DE ABRANGÊNCIA: É um espaço delimitado por quilometragem em torno da localização informada pelo usuário em sua ocorrência, onde por processo eletrônico são identificadas as oficinas cadastradas, sem qualquer tipo de exclusividade ou obrigatoriedade, cabendo às mesmas se interessar ou não pelo envio de orçamento para o usuário."
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Condições Gerais"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O visitante, o usuário e a oficina ficam cientes que o fluxo completo da operação obedece as seguintes fases e que a conclusão do cadastro da ocorrência do visitante ou usuário depende de ratificação da concordância quanto às condições do Termo de Uso, sendo certo que tal concordância fará parte da documentação eletrônica de cada ocorrência cadastrada.
+	•	Visitante ou usuário acessa o site Car10 e cadastra a ocorrência. 	•	Sistema identifica oficinas cadastradas no Car10 no raio de abrangência e dispara envio dos dados da ocorrência para as oficinas. 	•	Oficina recebe convite e a seu critério elabora ou não orçamento para o veículo. 	•	Usuário recebe orçamentos de diversas oficinas do raio de abrangência. 	•	Usuário escolhe um dos orçamentos e envia aprovação, gerando um e-mail. 	•	Oficina recebe aprovação do orçamento e dados do usuário para contato.
+ Atuando no processo sem nenhuma participação ou ingerência nas decisões do usuário e da oficina, o Car10 não intermedia ou participa de nenhuma tratativa entre o usuário e a oficina. Por essa razão o Car10 e seus funcionários, representantes e procuradores se eximem de qualquer responsabilidade advinda da relação entre o usuário e a oficina, seja a que título e a que tempo for.   Fica por este Termo de Uso estipulado que qualquer despesa oriunda dos serviços prestados pela oficina ao usuário é de inteira responsabilidade do usuário. Portanto, o Car10, os seus funcionários, representantes e procuradores não respondem em nenhuma hipótese por pagamento total ou parcial relativo aos serviços prestados diretamente pela oficina, ou aqueles prestados por outras empresas à oficina e que se destinam ao usuário.   O Car10 também não se responsabiliza pelas obrigações tributárias decorrentes dos serviços ou da compra de peças ou componentes destinados a reposição ou substituição, constantes do orçamento apresentado pela oficina e aprovado pelo usuário. A fidelidade das informações quanto às características do veículo, a extensão dos danos e os dados pessoais são de responsabilidade exclusiva do usuário ao se cadastrar no Car10; assim como a elaboração do orçamento, a execução dos serviços, a garantia de qualidade, o faturamento e cobrança, são de responsabilidade exclusiva da oficina. Portanto, o Car10 não se responsabiliza por qualquer ação ou omissão do usuário ou da oficina, tanto as decorrentes das informações e/ou fotografias cadastradas pelo usuário quanto as decorrentes da prestação dos serviços a cargo da oficina.   O Car10 desempenha atividade meio e as oficinas atividade fim, portanto, não existe qualquer responsabilidade do Car10, subjetiva ou objetiva, sobre os serviços prestados pelas oficinas aos usuários. Contudo, o usuário deve estar ciente que as informações cadastradas quanto aos danos do veículo, ainda que involuntariamente, podem não ser completas, devido ao desconhecimento técnico do usuário ou mesmo pela possibilidade de existirem danos ocultos, que somente podem ser comprovados através de uma análise mais complexa por parte da oficina.   Antes de concluir a operação de cadastro de uma ocorrência e envio às oficinas, o usuário poderá revisar e alterar suas informações pessoais e do veículo. De toda forma, alguns parâmetros de crítica aos dados cadastrados ou imagens anexadas são efetuados pelo sistema e, em alguns casos, a ocorrência poderá ser automaticamente cancelada e informada por e-mail ao usuário. Nessa hipótese, o usuário está ciente e concorda que, caso queira, deverá cadastrar nova ocorrência para orçamentação dos danos em seu veículo.   Por este Termo de Uso, o usuário está ciente e concorda que a oficina possa gerar orçamentos complementares, caso sejam constatados danos no veículo não indicados pelo usuário ou que só tenham sido conhecidos após a desmontagem, eximindo o Car10 e a oficina de responderem por qualquer eventual diferença de valores entre o primeiro e os demais orçamentos complementares.   Ainda por o este Termo de Uso, o usuário está ciente e concorda que o Car10 e a oficina também não se responsabilizam por qualquer despesa de transporte do veículo; de emplacamento; de estadia de qualquer pessoa e de lucros cessantes.   De acordo com este Termo de Uso, o usuário aceita ser identificado pelo sistema do Car10, através, por exemplo, do uso de cookies ou outras tecnologias, objetivando sempre a melhoria contínua dos serviços prestados pelo site.   Cookie é um arquivo-texto enviado pelo servidor do Car10 para o computador do usuário, com a finalidade de identificar o computador e controlar a audiência e a navegação no site. Um cookie é atribuído individualmente a cada computador e não pode ser usado para executar programas nem infectar computadores com vírus, podendo ser lido apenas pelo servidor que o enviou. Os cookies não serão usados para controlar ou utilizar os dados pessoais do usuário, exceto quando esse desrespeitar alguma regra de segurança ou exercer alguma atividade prejudicial ao bom funcionamento do site Car10, como, por exemplo, tentativas de invadir (hackear) o site.   Após a aprovação do orçamento pelo usuário, será gerado um e-mail de identificação da ocorrência, para que o usuário possa interagir diretamente com a oficina sobre os reparos em seu veículo e enviar seus dados pessoais para fins de cadastro e faturamento. A privacidade dessas informações disponibilizadas pelo usuário à oficina, como identificação pessoal, endereço de cobrança, dados bancários, é de inteira responsabilidade do usuário pelo seu envio e veracidade, assim como é de inteira responsabilidade da oficina pela sua guarda e confidencialidade; portanto, o Car10 não se responsabiliza em nenhuma hipótese pela utilização e manejo dessas informações enviadas diretamente do usuário para a oficina.   O usuário ao efetuar cadastro no Car10 receberá e-mail automático confirmando a operação, assim como nas fases seguintes do processo. Por este Termo de Uso, o usuário autoriza receber contato da Área de Atendimento do Car10, para eventuais esclarecimentos acerca exclusivamente dos serviços, seja por e-mail ou telefone; todavia, fica desde já convencionado que o Car10 nunca enviará e-mail ou solicitará por telefone confirmação ou complementação de dados cadastrais e/ou financeiros do usuário. Qualquer e-mail ou telefonema nesse sentido deverá ser entendido como fora dos padrões do Car10 e consequentemente denunciado ao site pelo usuário.   O Car10 utiliza ferramenta de sistema que permite ao usuário importar seus dados pessoais diretamente do Facebook, caso seja usuário daquele site, sendo certo que ao optar por esse serviço o usuário estará sujeito às políticas de privacidade e de uso do Facebook, sem prejuízo das políticas de privacidade e de uso do Car10. Objetivando o aperfeiçoamento constante dos serviços do site, após o término dos reparos no veículo, o Car10 disponibilizará campo para avaliação do atendimento prestado pela oficina, ficando a critério do usuário emitir seu grau de satisfação, o qual será de sua inteira responsabilidade e pelo qual o Car10 não responderá a qualquer título, seja perante o usuário ou à oficina.   Pertencem ao site Car10 os direitos de uso e propriedade de seu material, não sendo permitida sua reprodução, transmissão e distribuição, por qualquer que seja a finalidade, sem o expresso consentimento do seu titular. O uso indevido de material pertencente ao Car10, protegido por propriedade intelectual (direito autoral, marcas comerciais, patentes etc.), sujeita o infrator às medidas judiciais cabíveis à espécie, sem prejuízo de eventual indenização por perdas e danos e honorários advocatícios.   Os visitantes, usuários e oficinas que acessarem o site Car10 estarão sujeitos às normas e condições do presente Termo de Uso e obrigam-se a:
+	•	Não utilizar o Car10 com qualquer propósito ilegal ou que não atenda a critérios de veracidade. 	•	Não cadastrar ou transmitir quaisquer tipos de informações que não sejam verdadeiras ou que não pertençam ao usuário ou que induzam a erro tanto o Car10 quanto à parte a qual as informações se destinam. 	•	Não violar a privacidade do site Car10 ou de outros usuários ou de oficinas. 	•	Não enviar ou transmitir arquivos que contenham qualquer vírus, worms, malware ou outros programas de computador que possam causar danos ao site ou ao destinatário. 	•	Não utilizar endereços de computadores, de rede ou de correio eletrônico, falsos. 	•	Não utilizar o serviço disponível no Car10 para fins diversos daqueles a que se destina.
+Responsabilidades do visitante ou usuário.
+	•	Ser cuidadoso com informações de sua identificação individual, informando-as em operações na internet apenas onde constar o identificador de proteção de dados. 	•	Fornecer informações verídicas e de sua titularidade. 	•	Responder por quaisquer tipos de informação ou de afirmação originadas com seus dados pessoais de acesso ao site. 	•	Manter em sigilo a sua identificação de usuário (nome e senha). 	•	Configurar seu equipamento de forma a protegê-lo de eventuais invasões que resultem em propagação de vírus. 	•	Cumprir rigorosamente todas as determinações deste Termo de Uso.
+ Em nenhum caso o Car10 será responsabilizado por qualquer dano direto, indireto, incidental, especial ou decorrente de quaisquer fatos resultantes do uso do site ou da inabilidade de uso deste, ou ainda por quaisquer informações ou serviços obtidos através dele ou em decorrência do seu uso.   O Car10 poderá alterar os serviços e material do site, ou ainda encerrar as atividades a qualquer momento, sem nenhuma notificação prévia aos usuários e sem possibilidade de indenização.   O visitante ou usuário ou a oficina que violar o presente Termo de Uso será notificado a cessar a prática irregular, sem prejuízo das cominações legais que tais irregularidades venham a dar causa.   O descumprimento às condições, termos e observações deste Termo de Uso dá ao site Car10 o direito de cancelar, suspender, excluir e/ou desativar o cadastro ou o material enviado pelo usuário, temporária ou definitivamente, ao seu único e exclusivo critério, sem prejuízo das cominações legais pertinentes e sem a necessidade de comunicar ao usuário a ação tomada dentro do seu sistema.   Esse Termo de Uso se aplica integralmente também nos casos de acesso ao sistema através dos promotores de negócios do Car10, em demonstrações do produto, cuja navegação no site ficará restrita às fases do processo anteriores à conclusão da ocorrência, que sempre será exclusiva do visitante ou usuário, a fim de garantir a privacidade dos seus dados cadastrais e de sua senha de identificação pessoal.   Considerando que a concretização do cadastro de uma ocorrência está vinculada à anuência às condições do Termo de Uso para se efetivar, fica entendido que o visitante ou usuário leu e concordou com as condições previstas neste Termo de Uso, em nada prejudicando que o mesmo seja alterado a qualquer momento pelo Car10, caso haja necessidade de adapta-lo a novos fatos. Por isso, solicitamos a leitura periódica deste Termo, como meio de se cientificar das responsabilidades, deveres e obrigações que o visitante ou usuário ou a oficina assume ao utilizar o Car10.  As partes convencionam o recebimento de mensagens e arquivos eletrônicos como prova documental para todos os efeitos, desde que com aviso de confirmação de recebimento ou outro tipo de protocolo que certifique o recebimento da comunicação.   Fica eleito o foro da Comarca de São Paulo, Estado de São Paulo, como competente para dirimir quaisquer controvérsias decorrentes deste Termo de Uso, independentemente de qualquer outro, por mais privilegiado que seja ou venha a ser.
+"
+            />
+
+    </LinearLayout>
+</ScrollView>

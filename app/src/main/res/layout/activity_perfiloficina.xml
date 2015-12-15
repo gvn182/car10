@@ -1,0 +1,234 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="top" android:background="#FFF">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imgOficina"
+        />
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"  >
+
+        <Button android:id="@+id/btnDescricao" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:textColor="#000"
+            android:background="@drawable/selectedbuttonshape"
+            android:text="DESCRIÇÃO" />
+
+        <View android:layout_height="fill_parent"
+            android:layout_width="2px"
+            android:textColor="#FFFFFF"
+            android:background="#F2AE93"  />
+
+        <Button android:id="@+id/btnAvaliacoes" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:background="@drawable/unselectedbuttonshape"
+            android:textColor="#000" android:fontFamily="HelveticaNeue-Medium"
+            android:text="AVALIAÇÕES" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layoutDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/layoutDescContent"
+            android:paddingLeft="5dp"
+            android:layout_height="160dp">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/lblEndereco"
+            android:textColor="#dbdbdb"
+            android:fontFamily="HelveticaNeue-Medium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Endereço:"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/lblEndereco"
+            android:id="@+id/txtRua"
+            android:fontFamily="HelveticaNeue-Medium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="fill_parent"
+            android:id="@+id/map"
+            android:layout_toRightOf="@id/txtRua"
+            tools:context=".Main"
+
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+        <TextView
+            android:layout_below="@+id/txtRua"
+            android:id="@+id/txtEndereco"
+            android:fontFamily="HelveticaNeue-Medium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+
+        <View android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:id="@+id/vEndereco"
+            android:layout_width="220dp"
+            android:layout_below="@id/txtEndereco"
+            android:textColor="#FFFFFF"
+            android:background="#dbdbdb"  />
+
+        <TextView
+            android:id="@+id/lblContato"
+            android:textColor="#dbdbdb"
+            android:layout_below="@+id/vEndereco"
+            android:fontFamily="HelveticaNeue-Medium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Contato:"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/lblContato"
+            android:id="@+id/txtTelefone"
+            android:fontFamily="HelveticaNeue-Medium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_below="@+id/layoutDescContent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <View android:layout_height="1px"
+                android:layout_width="fill_parent"
+                android:textColor="#FFFFFF"
+                android:background="#dbdbdb"  />
+        <TextView
+            android:id="@+id/lblDescricao"
+            android:textColor="#dbdbdb"
+
+            android:fontFamily="HelveticaNeue-Medium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            />
+
+        <TextView
+            android:layout_below="@+id/lblDescricao"
+            android:id="@+id/txtDescricao"
+            android:fontFamily="HelveticaNeue-Medium"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+        <LinearLayout
+
+            android:id="@+id/layoutAvaliacoes"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="HelveticaNeue-Medium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:visibility="gone"
+                android:id="@+id/txtAvaliacaoSem"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Sem avaliações"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="150dp"
+                android:id="@+id/imgAvaliacao"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/s_1_star_rating"
+                android:layout_height="30dp" />
+
+            <View android:layout_height="2px"
+                android:layout_width="fill_parent"
+                android:textColor="#FFFFFF"
+                android:background="#dbdbdb"  />
+            <ListView
+                android:id="@+id/list"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            </ListView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#dbdbdb"
+        android:dividerHeight="1dp"
+        android:background="#FFF"/>
+ </android.support.v4.widget.DrawerLayout>

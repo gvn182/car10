@@ -1,0 +1,137 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/svForm"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#FFF">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Política de privacidade"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A segurança dos dados e privacidade das informações dos usuários merece especial atenção do Car10, que investe constantemente em novas tecnologias de proteção de sua base.   A Política de Privacidade e Segurança de Dados do Car10 contempla as diretrizes e esclarecimentos sobre proteção das informações cadastradas pelos usuários e as responsabilidades envolvidas quanto à guarda, proteção e divulgação de tais informações.   O Car10 nunca fornecerá informações pessoais do usuário sem sua prévia autorização, exceto por força de cumprimento de determinação judicial.   O Car10 envida todos os esforços para manter a confidencialidade e a segurança das informações dos usuários, porém não responderá por prejuízos decorrentes da divulgação de tais informações pelo motivo acima excepcionado, ou ainda por violação ou quebra das barreiras de segurança da internet por terceiros."
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informações Cadastrais"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ao visitante ou usuário que desejar cadastrar uma ocorrência no site Car10, serão requisitadas informações sobre sua localização (CEP); dados do seu veículo; pontos de avarias visíveis e seus dados pessoais. Com essas informações cadastradas no Car10, o usuário poderá navegar pelo site e receber orçamentos de diversas oficinas, para reparos em seu veículo, assim como permitirá ao Car10 identificar as necessidades dos usuários, realizar estatísticas e aprimorar permanentemente os serviços oferecidos pela empresa. Esse cadastro é armazenado em um banco de dados protegido e sigiloso, todavia, o Car10 terá total acesso a ele e direito de utilização, de acordo com as políticas da empresa.   Antes de concluir a operação de cadastro de uma ocorrência e envio às oficinas, o usuário poderá revisar e alterar suas informações pessoais e do veículo. De toda forma, alguns parâmetros de crítica aos dados cadastrados ou imagens anexadas são efetuados pelo sistema e, em alguns casos, a ocorrência poderá ser automaticamente cancelada e informada por e-mail ao usuário. Nessa hipótese, o usuário está ciente e concorda que, caso queira, deverá cadastrar nova ocorrência para orçamentação dos danos em seu veículo.   O usuário se compromete e responde pela veracidade, exatidão, vigência e autenticidade dos dados pessoais, e se compromete a mantê-los devidamente atualizados. Por esse comprometimento, o Car10 se isenta de toda responsabilidade, perante qualquer pessoa física ou jurídica, por eventual inserção de dados falsos ou inexatidão dos dados pessoais cadastrados."
+            />
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Definições"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SITE Car10: é o ambiente de internet registrado no Núcleo de Informação e Coordenação do Ponto BR, sob o domínio “car10.com.br”, com todos os seus recursos e ferramentas, disponibilizado ao público para o serviço a que se propõe a empresa.   VISITANTE: é toda pessoa que acessa ao site Car10 e não se enquadre como usuário ou oficina.   USUÁRIO: é toda pessoa que se cadastra no Car10 e conclua operação de cadastro de ocorrência, passando a ser identificada por senha exclusiva por ela criada.   COOKIE: é um arquivo-texto enviado pelo servidor do Car10 para o computador do usuário, com a finalidade de identificar o computador e controlar a audiência e a navegação no site. Um cookie é atribuído individualmente a cada computador e não pode ser usado para executar programas nem infectar computadores com vírus, podendo ser lido apenas pelo servidor que o enviou. Os cookies não serão usados para controlar ou utilizar os dados pessoais do usuário, exceto quando esse desrespeitar alguma regra de segurança ou exercer alguma atividade prejudicial ao bom funcionamento do site Car10, como, por exemplo, tentativas de invadir (hackear) o site."
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacidade de Dados"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A privacidade das informações enviadas pelo usuário à oficina, após o aceite do orçamento, como dados pessoais e financeiros, é de inteira responsabilidade do usuário e da oficina, portanto, o Car10 não se responsabiliza pela utilização e manejo dessas informações enviadas diretamente do usuário para a oficina.   Nenhuma informação individual sobre o usuário será fornecida a terceiros sem sua prévia autorização, exceto por força de cumprimento de determinação judicial ou por necessidade do Car10 proteger o site do uso para fins ilícitos ou que violem as condições de segurança, como a invasão por terceiros hackers ou crackers.   O Car10 não responderá por prejuízos decorrentes da divulgação de tais informações pelos motivos acima excepcionados."
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proteção de Dados"
+            />
+
+        <View android:layout_height="2px"
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:textColor="#FF681B"
+            android:background="#FF681B"  />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:fontFamily="Helvetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Em algumas fases do cadastro pelo visitante ou usuário, são coletadas informações de identificação individual e/ou cadastral (como nome completo ou razão social, endereço, telefones, dados de veículo etc.), necessárias à navegação ou utilização dos serviços disponíveis. Como medida de proteção, as informações de identificação individual e/ou cadastral coletadas pelo Car10 passam por processo de criptografia em todas as páginas de coleta de dados e nas áreas seguras do site, onde um usuário e senha são solicitados. Esse processo é certificado por autoridade certificadora de servidores web, garantindo comunicações e transações seguras.   As informações identificáveis, coletadas pela Car10, são manipuladas apenas por pessoal autorizado.   As operações realizadas no site Car10 por um usuário, bem como as informações associadas a essas operações, são exclusivas e só podem ser acessadas por esse usuário.   Ao se cadastrar no site Car10, para utilização dos serviços oferecidos, cada usuário recebe uma identificação única, que passa a ser requerida e autenticada nos demais acessos ao site. Essa identificação, para os fins de direito, serve como assinatura e habilitação pelas ações do usuário no site.   A identificação de usuário é exclusiva, intransferível e criptografada, para ser transmitida ao servidor do Car10, sendo a senha armazenada em banco de dados na sua forma criptografada, de maneira irreversível.   O usuário ao efetuar cadastro no Car10 receberá e-mail automático confirmando a operação, assim como nas fases seguintes do processo. Por este Termo de Uso, o usuário autoriza receber contato da Área de Atendimento do Car10, para eventuais esclarecimentos acerca exclusivamente dos serviços, seja por e-mail ou telefone; todavia, fica desde já convencionado que o Car10 nunca enviará e-mail ou solicitará por telefone confirmação ou complementação de dados cadastrais e/ou financeiros do usuário. Qualquer e-mail ou telefonema nesse sentido deverá ser entendido como fora dos padrões do Car10 e consequentemente denunciado ao site pelo usuário.   O Car10 utiliza ferramenta de sistema que permite ao usuário importar seus dados pessoais diretamente do Facebook, caso seja usuário daquele site, sendo certo que ao optar por esse serviço o usuário estará sujeito às políticas de privacidade e de uso do Facebook, sem prejuízo das políticas de privacidade e de uso do Car10.   Essa Política de Privacidade e Segurança de Dados se aplica integralmente também nos casos de acesso ao sistema através dos promotores de negócios do Car10, em demonstrações do produto, cuja navegação no site ficará restrita às fases do processo anteriores à conclusão da ocorrência, que sempre será exclusiva do visitante ou usuário, a fim de garantir a privacidade dos seus dados cadastrais e de sua senha de identificação pessoal.   Reservamo-nos o direito de alterar a Política de Privacidade e Segurança de Dados a qualquer momento, porém, eventuais alterações serão sempre veiculadas neste espaço. Portanto, solicitamos a leitura periódica desta Política, como meio de se cientificar das diretrizes atualizadas sobre segurança de dados e privacidade das informações."
+        />
+
+    </LinearLayout>
+</ScrollView>

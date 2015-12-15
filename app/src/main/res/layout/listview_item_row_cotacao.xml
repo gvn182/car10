@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocorrencia:"
+        android:id="@+id/txtOcorrencia"
+        android:fontFamily="HelveticaNeue-Medium"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/12/2014"
+        android:id="@+id/txtData"
+        android:fontFamily="HelveticaNeue-Medium"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtOcorrencia"
+        android:layout_height="wrap_content"
+        android:text="EWO 8860"
+        android:id="@+id/txtPlaca"
+        android:textColor="#233C81"
+        android:textStyle="bold"
+        android:fontFamily="HelveticaNeue-Medium"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgOrc"
+        android:src="@drawable/icon_orcamento_aprovado"
+        android:layout_below="@+id/txtPlaca"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/imgOrc"
+        android:layout_below="@+id/txtPlaca"
+        android:layout_height="wrap_content"
+        android:text="Orçamento aprovado"
+        android:id="@+id/txtTiulo"
+        android:textColor="#E76D20"
+        android:fontFamily="HelveticaNeue-Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+
+</RelativeLayout>

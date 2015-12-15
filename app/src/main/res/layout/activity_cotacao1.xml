@@ -1,0 +1,247 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="top">
+
+
+
+
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/imgstep1"
+            android:src="@drawable/steps_1" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/car_0215"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgCar" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/capo"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgCapo" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/parachoque"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgParachoque" />
+
+
+
+
+
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_direita"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateraldireita" />
+
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_direita_frontal"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateraldireitafrontal" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_direita_traseira"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateraldireitatraseira" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_direita_roda_frontal"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateraldireitarodafrontal" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_direita_roda_traseira"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateraldireitarodatraseira" />
+
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/parachoque_traseiro"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgtraseira" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/vidro_traseiro"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgvidrotraseiro" />
+
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_esquerda"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateralesquerda" />
+
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_esquerda_frontal"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateralesquerdafrontal" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_esquerda_traseira"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateralesquerdatraseira" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_esquerda_roda_frontal"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateralesquerdarodafrontal" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lateral_esquerda_roda_traseira"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imglateralesquerdarodatraseira" />
+
+        <ImageView
+            android:layout_below="@+id/imgstep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/vidro_front"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgvidrofront" />
+
+
+
+
+        <LinearLayout android:id="@+id/footer" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_alignParentBottom="true" style="@android:style/ButtonBar" android:background="#FFF">
+
+            <Button android:id="@+id/cancelButton" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:background="#011F83"
+                android:textColor="#FFFFFF"
+                android:text="CANCELAR" />
+
+            <View android:layout_height="fill_parent"
+                android:layout_width="2px"
+                android:textColor="#FFFFFF"
+                android:background="#FFF"  />
+
+            <Button android:id="@+id/btnNext" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:background="#011F83"
+                android:textColor="#FFFFFF" android:fontFamily="HelveticaNeue-Medium"
+                android:text="PRÓXIMO" />
+        </LinearLayout>
+
+
+
+        <View android:id="@+id/vCover" android:layout_height="fill_parent"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:background="#7f000000"  />
+
+
+    </RelativeLayout>
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         The drawer is given a fixed width in dp and extends the full height of
+         the container. A solid background is used for contrast
+         with the content view. -->
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#dbdbdb"
+        android:dividerHeight="1dp"
+        android:background="#FFF"/>
+</android.support.v4.widget.DrawerLayout>
+
+

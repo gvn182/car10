@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:gravity="center" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Como tirar as fotos"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lblComoTirarFoto"
+        android:textStyle="bold"
+        android:textColor="#808184"
+        android:layout_gravity="center_horizontal" />
+
+    <View android:id="@+id/separator"
+        android:background="#dbdbdb"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+       />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/como_tirar1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imghowtotakepicture1"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Tire uma foto em uma distância de até 3 metros da avaria."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lblComoTirarFoto2"
+        android:gravity="center"
+        android:textColor="#808184"
+        android:layout_gravity="center_horizontal" />
+
+    <View android:id="@+id/separator2"
+        android:background="#dbdbdb"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/como_tirar2"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imghowtotakepicture2"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Tire outra foto de até 1 metro da avaria."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lblComoTirarFoto3"
+        android:gravity="center"
+        android:textColor="#808184"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:background="#808184"
+        android:textColor="#FFFFFF"
+        android:fontFamily="HelveticaNeue-Medium"
+        android:textStyle="bold"
+        android:id="@+id/btnOkHowToTake"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

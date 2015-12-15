@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/imgRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/s_1_star_rating"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum BLA BLA"
+        android:id="@+id/txtDescricao"
+        android:fontFamily="HelveticaNeue-Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+</LinearLayout>

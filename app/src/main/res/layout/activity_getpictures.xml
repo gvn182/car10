@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:gravity="center" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/lblComoTirarFoto"
+        android:textStyle="bold"
+        android:textColor="#808184"
+        android:layout_gravity="center_horizontal" />
+
+    <View android:id="@+id/separator"
+        android:background="#dbdbdb"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+       />
+
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Escolha no máximo 3 fotos e/ou 1 vídeo:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/lblComoTirarFoto2"
+        android:gravity="left"
+        android:textColor="#808184"
+        android:layout_gravity="center_horizontal" />
+
+    <View android:id="@+id/separator2"
+        android:background="#dbdbdb"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:tag="thumb"
+            android:id="@+id/imgTirarFoto1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/thumb"
+            />
+        <ImageView
+            android:tag="thumb"
+            android:id="@+id/imgTirarFoto2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/thumb"
+            />
+        <ImageView
+            android:tag="thumb"
+            android:id="@+id/imgTirarFoto3"
+            android:layout_width="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="100dp"
+            android:src="@drawable/thumb"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:tag="thumb"
+        android:id="@+id/imgGravarVideo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/thumb" />
+
+        </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:background="#808184"
+        android:textColor="#FFFFFF"
+        android:fontFamily="HelveticaNeue-Medium"
+        android:textStyle="bold"
+        android:id="@+id/btnOkGetPictures"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
